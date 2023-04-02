@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import BlogPost from "./components/BlogPost";
-import { getPosts } from "./lib/posts";
+import { getPosts } from "./api/blogPost";
 
 const inter = Inter({ subsets: ["latin"] });
 
