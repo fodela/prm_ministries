@@ -14,7 +14,7 @@ export default async function Home() {
   const posts = await getPosts();
   return (
     <main className="max-w-[800px]">
-      {posts && posts.map((post) => <BlogPost post={post} />)}
+      {posts && posts.map((post) => <BlogPost post={post} key={post.id} />)}
       <p className="blue-500">Home</p>
     </main>
   );
