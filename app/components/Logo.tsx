@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <Link href="/" className="flex items-end">
       <Image
-        src="https://prmministries.org/wp-content/uploads/2021/09/Picture1.png"
+        src="/https://prmministries.org/wp-content/uploads/2021/09/Picture1.png"
         alt="PRM Ministeries logo"
         height={45}
         width={45}

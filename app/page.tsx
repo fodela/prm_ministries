@@ -15,7 +15,6 @@ export default async function Home() {
   return (
     <main className="max-w-[800px]">
       {posts && posts.map((post) => <BlogPost post={post} key={post.id} />)}
-      <p className="blue-500">Home</p>
     </main>
   );
 }
